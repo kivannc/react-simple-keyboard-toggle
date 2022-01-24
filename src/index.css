@@ -1,0 +1,57 @@
+input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+.simple-keyboard {
+  width: 100%;
+}
+
+.keyboardContainer {
+  max-width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.simple-keyboard.hg-theme-default {
+  border: 4px solid rgba(226, 226, 226, 0.7);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.simple-keyboard.hg-theme-default .hg-button.hg-functionBtn {
+  width: 50%;
+}
+
+.simple-keyboard.hg-theme-default .hg-button.hg-standardBtn,
+.simple-keyboard.hg-theme-default .hg-button.hg-button-clear {
+  width: 33%;
+}
+
+button {
+  background: #2c46cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+.closeBtn {
+  background: #d84141;
+}
