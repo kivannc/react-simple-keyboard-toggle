@@ -1,6 +1,6 @@
 React Hooks example of react simple keyboard
   * Toggle visibility with focus
-  * Dismiss with click 
+  * Dismiss with outside click 
   * Multiple input
   * Different layouts for for inputs
 
