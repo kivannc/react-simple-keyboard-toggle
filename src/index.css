@@ -16,8 +16,14 @@ input {
   width: 100%;
 }
 
-.keyboardContainer {
+.numPad{
   max-width: 250px;
+}
+
+.defaulKeyboard {
+  max-width: 100%;
+}
+.keyboardContainer {
   margin: 0 auto;
   margin-top: 20px;
   text-align: center;
